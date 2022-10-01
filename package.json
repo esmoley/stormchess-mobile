@@ -1,0 +1,26 @@
+{
+  "name": "com.clickstorm.stormchess",
+  "displayName": "StormChess",
+  "version": "1.0.0",
+  "description": "Storm Chess",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:android": "cordova emulate android",
+    "dist:android": "cordova build android --prod --release",
+    "dist:android:apk": "cordova build android --release -- --packageType=apk"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Clickstorm team",
+  "license": "Clickstorm",
+  "devDependencies": {
+    "cordova-android": "^10.1.1"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  }
+}
